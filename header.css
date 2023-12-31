@@ -1,0 +1,36 @@
+body{
+  background-color: rgb(40, 41, 51);
+  
+}
+
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(179, 178, 178);
+  
+}
+
+.menu-icon{
+  height: 40px;
+}
+.left-header{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.dextro{
+  margin-left: 40px;
+  font-size: 40px;
+  color: grey;
+}
+
+.right-header{
+  background-color: white;
+}
+
+.right-header img{
+  height: 40px;
+}
