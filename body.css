@@ -1,6 +1,14 @@
-
+a:hover {
+  text-decoration: underline; 
+}
 body{
   padding-bottom: 1500px;
+  background-color: rgba(8, 8, 14, 0.89);
+  animation:animateBg 5s linear infinite;
+
+  margin: 0px;
+  
+
 }
 .chat-body{
   display: flex;
@@ -10,18 +18,38 @@ body{
 }
 
 .left-body{
-  background-color: white;
+  background-color: grey;
+  color: white;
   margin-top: 50px;
   height: 500px;
   width: 250px;
   padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
 }
 
 .right-body{
-  background-color: rgba(255, 255, 255, 0.747);
+  background-color: grey;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
   margin-top: 50px;
-  height: 500px;
+  height: 480px;
   width: 800px;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.intro {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  padding-left: 10px;
+  color: white;
+  animation:animateBg 5s linear infinite;
+  font-weight: bold;
+}
+
+@keyframes animateBg {
+  100% {
+    filter:hue-rotate(360deg);
+  }
 }
