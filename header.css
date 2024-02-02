@@ -44,3 +44,20 @@ header{
     filter:hue-rotate(360deg);
   }
 }
+
+
+
+@media screen and (min-width: 450px) {
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    padding-top: 15px;
+    position: fixed;
+    width: 100%;
+    background-color: grey;
+  }
+
+  
+}

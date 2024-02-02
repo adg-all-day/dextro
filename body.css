@@ -1,6 +1,7 @@
 a:hover {
   text-decoration: underline; 
 }
+
 body{
   padding-bottom: 1500px;
   background-color: rgba(8, 8, 14, 0.89);
@@ -51,5 +52,12 @@ body{
 @keyframes animateBg {
   100% {
     filter:hue-rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .left-body,
+  .right-body {
+    margin-top: 140px;
   }
 }
